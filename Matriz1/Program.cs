@@ -33,6 +33,8 @@ namespace Matriz1
 
             }
 
+            Console.WriteLine();
+
             int cont = 0;
             //for para contar os numeros negativos
             for (int i = 0; i < n; i++)
@@ -45,7 +47,7 @@ namespace Matriz1
                     }
                 }
             }
-            Console.WriteLine();
+
             Console.WriteLine("Quantidade de negativos: " + cont);
         }
     }
